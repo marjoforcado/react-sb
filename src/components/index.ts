@@ -1,3 +1,4 @@
+import Accordion from "./accordion";
 import Avatar from "./avatar";
 
-export { Avatar };
+export { Accordion, Avatar };

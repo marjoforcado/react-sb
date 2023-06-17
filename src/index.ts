@@ -1,3 +1,3 @@
-import { Avatar } from "./components";
+import { Accordion, Avatar } from "./components";
 
-export { Avatar };
+export { Accordion, Avatar };
