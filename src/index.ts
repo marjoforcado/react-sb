@@ -1,3 +1,3 @@
-import { Avatar, Button } from "./components";
+import { Avatar } from "./components";
 
-export { Avatar, Button };
+export { Avatar };
