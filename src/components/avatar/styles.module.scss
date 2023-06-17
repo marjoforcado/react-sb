@@ -1,12 +1,11 @@
 .AvatarRoot {
-  @apply inline-flex items-center justify-center align-middle overflow-hidden select-none w-11 h-11 rounded-full bg-black;
+  @apply bg-black inline-flex h-[45px] w-[45px] select-none items-center justify-center overflow-hidden rounded-full align-middle;
 }
 
 .AvatarImage {
-  border-radius: inherit;
-  @apply w-full h-full object-cover;
+  @apply h-full w-full rounded-[inherit] object-cover;
 }
 
 .AvatarFallback {
-  @apply w-full h-full flex items-center bg-white text-violet-800 text-sm leading-none font-semibold;
+  @apply text-violet-800 leading-none flex h-full w-full items-center justify-center bg-white text-[15px] font-medium;
 }
