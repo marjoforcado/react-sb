@@ -39,8 +39,8 @@ const config = [
     ],
   },
   {
-    input: "dist/index.d.ts",
-    output: [{ file: "dist/index.d.ts", format: "es" }],
+    input: "lib/index.d.ts",
+    output: [{ file: "lib/index.d.ts", format: "es" }],
     plugins: [dts.default()],
     external: [/\.css$/],
   },
